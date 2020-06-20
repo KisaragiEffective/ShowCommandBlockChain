@@ -1,0 +1,16 @@
+name: ShowCommandBlockChain
+version: ${project.version}
+main: com.github.kisaragieffective.showcommandblockchain.ShowCommandBlockChain
+api-version: 1.15.2
+description: Just tells how they are chained?
+commands:
+  checkchain:
+    permission: scbc.checkchain
+
+permissions:
+  scbc.*:
+    description: "all permission"
+    children:
+      scbc.checkchain: true
+  scbc.checkchain:
+
