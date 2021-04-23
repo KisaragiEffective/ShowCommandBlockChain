@@ -19,7 +19,7 @@ public final class ShowCommandBlockChain extends JavaPlugin implements CommandEx
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getCommand("checkchain").setExecutor(this);
     }
 
     @Override
